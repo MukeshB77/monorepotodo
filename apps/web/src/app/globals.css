@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-100 antialiased selection:bg-lime-500/30;
+  }
+}
+
+@layer utilities {
+  .shadow-neon {
+    box-shadow: 0 0 10px rgba(163, 230, 53, 0.5), 0 0 20px rgba(163, 230, 53, 0.3);
+  }
+
+  .shadow-neon-strong {
+    box-shadow: 0 0 10px rgba(163, 230, 53, 0.8), 0 0 30px rgba(163, 230, 53, 0.4);
+  }
+}
