@@ -1,3 +1,4 @@
+// Dashboard Page Component
 import { createClient } from '@/utils/supabase/server'
 import { redirect } from 'next/navigation'
 import { TaskForm } from '@/components/TaskForm'
